@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\NamaTable;
 use Illuminate\Http\Request;
 
 class NamaTableController extends Controller
@@ -22,8 +23,8 @@ class NamaTableController extends Controller
     {
 
     $request->validate([
-        'kolom1' => 'required',
-        'kolom2' => 'required',
+        'judul' => 'required',
+        'artikel' => 'required',
     ]);
 
     NamaTable::create($request->all());
