@@ -133,7 +133,7 @@
                 <div class="row pagemedia">
                     <d class="column xl-12">
                         <figure class="page-media">                                
-                            <img src="{{ asset('storage') }}/assets/images/map.jpg" 
+                            <img src="{{ asset('storage') }}/assets/images/map.png" 
                                  srcse{{ asset('storage') }}/assets/t="images/thumbs/contact/contact-2400.jpg 2400w, 
                                          images/thumbs/contact/contact-1200.jpg 1200w, 
                                          images/thumbs/contact/contact-600.jpg 600w" sizes="(max-width: 2400px) 100vw, 2400px" alt="">

@@ -154,7 +154,7 @@
                                 </div>
                                 <div class="testimonials__slide swiper-slide">
                                     <div class="testimonials__author">
-                                        <img src="{{ asset('storage') }}/assets/images/shabirah.jpg" alt="Author image" class="testimonials__avatar">
+                                        <img src="{{ asset('storage') }}/assets/images/shabirah.png" alt="Author image" class="testimonials__avatar">
                                         <cite class="testimonials__cite">
                                             <strong>Khansa Shabirah Al-Mutawakkil</strong>
                                             <span>231351070</span>
@@ -163,7 +163,7 @@
                                 </div>
                                 <div class="testimonials__slide swiper-slide">
                                     <div class="testimonials__author">
-                                        <img src="{{ asset('storage') }}/assets/images/kholis.jpg" alt="Author image" class="testimonials__avatar">
+                                        <img src="{{ asset('storage') }}/assets/images/kholis.png" alt="Author image" class="testimonials__avatar">
                                         <cite class="testimonials__cite">
                                             <strong>Kholisotus Sa'adah</strong>
                                             <span>231351072</span>
