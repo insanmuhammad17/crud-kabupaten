@@ -11,15 +11,16 @@
                     <p>{{ $message }}</p>
                 </div>
             @endif
-            <table class="table table-bordered mt-2">
-                <tr>
-                    <th>No</th>
-                    <th>Judul Artikel</th>
-                    <th>Artikel</th>
-                </tr>
+            <div class="table-responsive">
+                <table class='table table-hover'>
+                    <thead class='table-primary'>
+                        <th>No</th>
+                        <th>Judul Artikel</th>
+                        <th>Artikel</th>
+                    </thead>
                 @foreach ($data as $key => $value)
                 <tr>
-                    <td>{{ ++$i }}</td>
+                    <td>{{ $loop->iteration }}</td>
                     <td>{{ $value->judul }}</td>
                     <td>{{ $value->artikel }}</td>
                 </tr>
