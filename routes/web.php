@@ -36,3 +36,8 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+
+
+use App\Http\Controllers\NamaTableController;
+
+Route::resource('nama_table', NamaTableController::class);
