@@ -3,8 +3,10 @@
 @section('content')
 <div class="container">
     <div class="row">
-        <div class="col-lg-12">
-            <h2>Artikel</h2>
+        <div class="table-responsive">
+            <p style='font-weight:bold;text-align:center;top:auto; font-size: 30px;'>
+                Artikel
+            </p>
             <a href="{{ route('nama_table.create') }}" class="btn btn-primary">Tambah Data</a>
             @if ($message = Session::get('success'))
                 <div class="alert alert-success mt-2">
@@ -18,13 +20,15 @@
                         <th>Judul Artikel</th>
                         <th>Artikel</th>
                     </thead>
-                @foreach ($data as $key => $value)
-                <tr>
-                    <td>{{ $loop->iteration }}</td>
-                    <td>{{ $value->judul }}</td>
-                    <td>{{ $value->artikel }}</td>
-                </tr>
-                @endforeach
+                <tbody>
+                    @foreach ($data as $key => $value)
+                    <tr>
+                        <td>{{ $loop->iteration }}</td>
+                        <td>{{ $value->judul }}</td>
+                        <td>{{ $value->artikel }}</td>
+                    </tr>
+                    @endforeach
+                </tbody>
             </table>
         </div>
     </div>
